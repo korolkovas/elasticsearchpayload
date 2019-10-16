@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh "curl -H 'X-Status: Awesome2' https://enn5ozjlow7n.x.pipedream.net/"
                 sh 'sleep 1'
+                sh 'printenv'
             }
         }
     }
